@@ -1,13 +1,11 @@
 <?php
 
 return array(
-	'controllers' => array(
-		'invokables' => array(
-			'Album\Controller\Album' => 'Album\Controller\AlbumController',
-		),
-	),
-    
- // Sección nueva donde definimos las reglas de ruteo y el ruteado principal
+    'controllers' => array(
+            'invokables' => array(
+                    'Album\Controller\Album' => 'Album\Controller\AlbumController',
+            ),
+    ),        
     'router' => array(
         'routes' => array(
             'album' => array(
@@ -26,12 +24,10 @@ return array(
             ),
         ),
     ),
-
-    
-	'view_manager' => array(
-		'template_path_stack' => array(
-			'album' => __DIR__ . '/../view',
-		),
-	),
-);
+    'view_manager' => array(
+                    'template_path_stack' => array(
+                            'album' => __DIR__ . '/../view',
+                    ),
+            ),
+    );
 
