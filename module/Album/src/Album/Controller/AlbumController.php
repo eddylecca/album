@@ -31,7 +31,7 @@ class AlbumController extends AbstractActionController
     {
         if (!$this->albumTable) {
             $sm = $this->getServiceLocator();
-            $this->albumTable = $sm->get('Album\Model\AlbumTable.php');
+            $this->albumTable = $sm->get('Album\Model\AlbumTable');
         }
         return $this->albumTable;
     }    
