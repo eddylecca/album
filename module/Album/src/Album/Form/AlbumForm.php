@@ -23,7 +23,7 @@ class AlbumForm extends Form
                 'type'  => 'text',
             ),
             'options' => array(
-                'label' => 'Artist',
+                'label' => 'Artista',
             ),
         ));
         $this->add(array(
@@ -32,7 +32,7 @@ class AlbumForm extends Form
                 'type'  => 'text',
             ),
             'options' => array(
-                'label' => 'Title',
+                'label' => 'Título',
             ),
         ));
         $this->add(array(

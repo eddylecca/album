@@ -20,7 +20,7 @@ class AlbumController extends AbstractActionController
     public function addAction()
     {
         $form = new AlbumForm();
-        $form->get('submit')->setValue('Add');
+        $form->get('submit')->setValue('Añadir');
 
         $request = $this->getRequest();
         if ($request->isPost()) {
@@ -51,7 +51,7 @@ class AlbumController extends AbstractActionController
 
         $form  = new AlbumForm();
         $form->bind($album);
-        $form->get('submit')->setAttribute('value', 'Edit');
+        $form->get('submit')->setAttribute('value', 'Editar');
 
         $request = $this->getRequest();
         if ($request->isPost()) {
