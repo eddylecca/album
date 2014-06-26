@@ -1,13 +1,13 @@
 <?php
 // module/Album/view/album/album/delete.phtml:
 
-$title = 'Delete album';
+$title = 'Borrar álbum';
 $this->headTitle($title);
 ?>
 <h1><?php echo $this->escapeHtml($title); ?></h1>
 
-<p>Are you sure that you want to delete
-    '<?php echo $this->escapeHtml($album->title); ?>' by
+<p>¿Estas seguro que quieres eliminar?
+    '<?php echo $this->escapeHtml($album->title); ?>' de
     '<?php echo $this->escapeHtml($album->artist); ?>'?
 </p>
 <?php
