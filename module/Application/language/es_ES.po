@@ -16,7 +16,7 @@ msgstr ""
 "X-Poedit-SearchPath-0: ..\n"
 
 msgid "Skeleton Application"
-msgstr "Aplicación Esqueleto"
+msgstr "Tutorial"
 
 msgid "Home"
 msgstr "Inicio"
